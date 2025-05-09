@@ -1,73 +1,45 @@
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #fdfdfd;
-    color: #333;
-    margin: 0;
-    padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f8f8;
+  color: #222;
+  margin: 0;
+  padding: 0;
 }
-
 header {
-    background-color: #1e1e1e;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
 }
-
 header h1 {
-    margin: 0;
-    font-size: 32px;
+  margin: 0;
 }
-
-nav {
-    margin-top: 10px;
-}
-
 nav a {
-    color: #dcdcdc;
-    margin: 0 15px;
-    text-decoration: none;
-    font-weight: 500;
+  color: #ddd;
+  margin: 0 10px;
+  text-decoration: none;
 }
-
-nav a:hover {
-    color: #ffffff;
-    text-decoration: underline;
-}
-
 main {
-    padding: 40px 60px;
-    max-width: 900px;
-    margin: auto;
-    background-color: #ffffff;
-    box-shadow: 0px 2px 10px rgba(0,0,0,0.05);
+  padding: 40px;
 }
-
 h2 {
-    color: #222;
-    border-bottom: 2px solid #e0e0e0;
-    padding-bottom: 5px;
-    margin-top: 40px;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
 }
-
 .shoe {
-    margin-bottom: 40px;
+  margin-bottom: 30px;
 }
-
 .shoe img {
-    display: block;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    max-width: 250px;
-    height: auto;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
 }
-
 footer {
-    background-color: #1e1e1e;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-    margin-top: 60px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 50px;
 }

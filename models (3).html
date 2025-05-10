@@ -1,87 +1,139 @@
-
 <!DOCTYPE html>
-<html lang="th">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>รุ่นรองเท้ายอดนิยม</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <title>Shoe Models</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background: #f5f5f5;
+    }
+    header, footer {
+      background: #333;
+      color: white;
+      padding: 10px 20px;
+    }
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+    }
+    main {
+      padding: 20px 0;
+    }
+    .shoe {
+      background: white;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .shoe img {
+      width: 200px;
+      margin-right: 20px;
+      border-radius: 10px;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Shoe Info</h1>
-        <nav>
-            <a href="index.html">หน้าแรก</a>
-            <a href="models.html">รุ่นรองเท้า</a>
-            <a href="about.html">เกี่ยวกับ</a>
-            <a href="sources.html">แหล่งข้อมูล</a>
-        </nav>
-    </header>
-    <main>
-        <h2>10 รุ่นรองเท้ายอดนิยม</h2>
+  <header>
+    <h1>Shoe Models</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="models.html">Shoe Models</a>
+      <a href="about.html">About</a>
+      <a href="sources.html">Sources</a>
+    </nav>
+  </header>
 
-        <div class="shoe">
-            <h3>Nike Air Max 90</h3>
-            <img src="airmax90.jpg" width="250" alt="Nike Air Max 90">
-            <p>เปิดตัวในปี 1990 เป็นรองเท้าวิ่งที่มาพร้อมเทคโนโลยี Air Max ที่ช่วยลดแรงกระแทก และมีดีไซน์คลาสสิกที่ยังได้รับความนิยมจนถึงปัจจุบัน</p>
-        </div>
+  <main>
+    <div class="shoe">
+      <img src="airmax90.jpg" alt="Air Max 90">
+      <div>
+        <h2>Nike Air Max 90</h2>
+        <p>รองเท้าวิ่งรุ่นคลาสสิกจาก Nike ที่มีดีไซน์ล้ำยุคและระบบ Air Cushion ซัพพอร์ตแรงกระแทกได้ดีเยี่ยม</p>
+      </div>
+    </div>
 
-        <div class="shoe">
-            <h3>Adidas Ultraboost</h3>
-            <img src="ultraboost.jpg" width="250" alt="Adidas Ultraboost">
-            <p>รองเท้าวิ่งประสิทธิภาพสูงที่ขึ้นชื่อเรื่องความสบายและแรงส่งพลังในการวิ่ง ด้วยพื้น Boost และหน้าผ้า Primeknit</p>
-        </div>
+    <div class="shoe">
+      <img src="ultraboost.jpg" alt="Ultraboost">
+      <div>
+        <h2>Adidas Ultraboost</h2>
+        <p>รองเท้าสำหรับวิ่งและใส่ลำลองที่ให้ความนุ่ม เบา และยืดหยุ่น พร้อมพื้น Boost เต็มแผ่น</p>
+      </div>
+    </div>
 
-        <div class="shoe">
-            <h3>Converse Chuck Taylor All Star</h3>
-            <img src="chucktaylor.jpg" width="250" alt="Converse Chuck Taylor">
-            <p>รองเท้าผ้าใบดีไซน์เรียบง่ายที่เป็นไอคอนของแฟชั่นมาตั้งแต่ยุค 1920s นิยมใส่ในชีวิตประจำวันและงานแฟชั่น</p>
-        </div>
+    <div class="shoe">
+      <img src="airforce1.jpg" alt="Air Force 1">
+      <div>
+        <h2>Nike Air Force 1</h2>
+        <p>รุ่นยอดฮิตตลอดกาลจาก Nike ที่มีดีไซน์เรียบเท่ ใส่ง่าย เข้ากับทุกสไตล์</p>
+      </div>
+    </div>
 
-        <div class="shoe">
-            <h3>New Balance 574</h3>
-            <img src="nb574.jpg" width="250" alt="New Balance 574">
-            <p>รองเท้าลำลองที่ได้รับความนิยมจากดีไซน์เรียบง่าย ใส่สบาย เหมาะทั้งกับการเดินทางและใช้งานทั่วไป</p>
-        </div>
+    <div class="shoe">
+      <img src="chucktaylor.jpg" alt="Chuck Taylor">
+      <div>
+        <h2>Converse Chuck Taylor</h2>
+        <p>รองเท้าผ้าใบระดับตำนาน สไตล์คลาสสิก ใส่ได้ทุกโอกาส และมีหลากหลายสีให้เลือก</p>
+      </div>
+    </div>
 
-        <div class="shoe">
-            <h3>Nike Air Force 1</h3>
-            <img src="airforce1.jpg" width="250" alt="Nike Air Force 1">
-            <p>รองเท้าระดับตำนานของ Nike ที่เปิดตัวตั้งแต่ปี 1982 ได้รับความนิยมอย่างต่อเนื่องในวงการแฟชั่นสตรีท</p>
-        </div>
+    <div class="shoe">
+      <img src="nb574.jpg" alt="NB 574">
+      <div>
+        <h2>New Balance 574</h2>
+        <p>รองเท้าแนววินเทจที่ผสานความสปอร์ตและแฟชั่นเข้าด้วยกัน พื้นนุ่ม ใส่สบายตลอดวัน</p>
+      </div>
+    </div>
 
-        <div class="shoe">
-            <h3>Adidas Stan Smith</h3>
-            <img src="stansmith.jpg" width="250" alt="Adidas Stan Smith">
-            <p>รองเท้าเทนนิสที่กลายมาเป็นแฟชั่นไอเท็ม มาพร้อมดีไซน์มินิมอล ใส่ง่ายกับทุกชุด</p>
-        </div>
+    <div class="shoe">
+      <img src="reebokclassic.jpg" alt="Reebok Classic">
+      <div>
+        <h2>Reebok Classic</h2>
+        <p>รองเท้าทรงสปอร์ตวินเทจ สไตล์ยุค 90s ให้ความรู้สึกเรียบหรูแต่ทันสมัย</p>
+      </div>
+    </div>
 
-        <div class="shoe">
-            <h3>Vans Old Skool</h3>
-            <img src="vansoldskool.jpg" width="250" alt="Vans Old Skool">
-            <p>รองเท้าสเก็ตสุดคลาสสิกจาก Vans มีแถบข้างเป็นเอกลักษณ์ โด่งดังในหมู่วัยรุ่นและสายสตรีท</p>
-        </div>
+    <div class="shoe">
+      <img src="pumasuede.jpg" alt="Puma Suede">
+      <div>
+        <h2>Puma Suede</h2>
+        <p>รองเท้าหนังกลับทรงคลาสสิก สวมใส่สบาย เหมาะกับสายแฟชั่นทุกแนว</p>
+      </div>
+    </div>
 
-        <div class="shoe">
-            <h3>Reebok Classic Leather</h3>
-            <img src="reebokclassic.jpg" width="250" alt="Reebok Classic Leather">
-            <p>รองเท้าลำลองสไตล์ย้อนยุคจากยุค 80s ผลิตจากหนังแท้ ให้ความรู้สึกนุ่มและใส่สบาย</p>
-        </div>
+    <div class="shoe">
+      <img src="asicsgel.jpg" alt="Asics GEL">
+      <div>
+        <h2>Asics GEL</h2>
+        <p>รองเท้าสำหรับนักวิ่งตัวจริง ด้วยเทคโนโลยี GEL Cushioning System รองรับแรงกระแทกได้ดีเยี่ยม</p>
+      </div>
+    </div>
 
-        <div class="shoe">
-            <h3>Puma Suede Classic</h3>
-            <img src="pumasuede.jpg" width="250" alt="Puma Suede Classic">
-            <p>รองเท้าผ้ากำมะหยี่รุ่นฮิตที่ได้รับความนิยมในวงการฮิปฮอปและแฟชั่นยุค 90s</p>
-        </div>
+    <div class="shoe">
+      <img src="vansoldskool.jpg" alt="Vans Old Skool">
+      <div>
+        <h2>Vans Old Skool</h2>
+        <p>รองเท้าสเกตสุดคลาสสิก ใส่ลำลองก็เท่ มีแถบข้างเป็นเอกลักษณ์ ใส่ได้ทุกวัน</p>
+      </div>
+    </div>
 
-        <div class="shoe">
-            <h3>Asics Gel-Lyte III</h3>
-            <img src="asicsgel.jpg" width="250" alt="Asics Gel-Lyte III">
-            <p>รองเท้าวิ่งจาก ASICS ที่โดดเด่นด้วยลิ้นรองเท้าแบบแยกกลาง และเทคโนโลยี GEL รองรับแรงกระแทก</p>
-        </div>
+    <div class="shoe">
+      <img src="stansmith.jpg" alt="Stan Smith">
+      <div>
+        <h2>Adidas Stan Smith</h2>
+        <p>รองเท้าหนังดีไซน์มินิมอล สไตล์เรียบหรูใส่ง่าย เป็นรุ่นที่นิยมทั่วโลกมานาน</p>
+      </div>
+    </div>
+  </main>
 
-    </main>
-    <footer>
-        <p>&copy; 2025 Shoe Info</p>
-    </footer>
+  <footer>
+    <p>&copy; 2025 Sneaker Info</p>
+  </footer>
 </body>
 </html>
